@@ -1,0 +1,10 @@
+img{
+    width: 100%;
+    display: block;
+}
+@media (min-width: 768px) {
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
